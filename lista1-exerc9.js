@@ -12,5 +12,11 @@ function exerc9(num){//supondo num =6
             soma = soma + divisor
         }
     }
+
+  //  for(var divisor=1; divisor <= num; divisor++){//divisor começa em 6 e vai ate 1
+   //     if (num % divisor ==0){
+  //          soma = soma + divisor
+   //     }
+   // }
     console.log(`a soma do divisor de ${num} é ${soma}`)
 }
